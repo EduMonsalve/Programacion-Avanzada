@@ -6,6 +6,8 @@ Material curso EL4203 Programación Avanzada por Joaquin Zepeda Valero, primaver
 Profesor Alberto Castro
 
 
+-:file_folder:__Acerca del curso__:
+    +[Programa del curso](about/EL4203_Programación avanzada.pdf)
 
 ## Google Colab
 Para la realización de los talleres prácticos de programación del curso, es conveniente que todos utilizemos la misma plataforma y así podamos evitar errores de compatibilidad o de instalación. [**Google Colaboratory**](https://colab.research.google.com/notebooks/welcome.ipynb) es un entorno de Jupyter notebook gratuito que se ejecuta completamente en la nube. La plataforma permite tanto escribir como ejecutar código, y solo se requiere de una cuenta google.
