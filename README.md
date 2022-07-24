@@ -21,7 +21,7 @@ Dentro de este repositorio podrá encontrar los notebooks (\*.ipynb), se recomie
 ## Clonar GitHub
 En caso de requerir importar archivos y/o elementos de este repositorio a un entorno de Google Colab, puede clonarlo directamente mediante:
 
-`! git clone https://github.com/joaquinzepeda/Programacion-Avanzada.git`
+`!git clone https://github.com/joaquinzepeda/Programacion-Avanzada.git`
 
 Si el repositorio se ha clonado correctamente, notará que en la carpeta de archivos `/content` se habrá creado el directorio 'Programacion-Avanzada'. Para utilizar este directorio dentro de la sesión, utilice el siguiente comando:
 
