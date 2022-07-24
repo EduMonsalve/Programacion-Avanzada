@@ -6,6 +6,9 @@ Material curso EL4203 Programación Avanzada por Joaquin Zepeda Valero, primaver
 Profesor Alberto Castro
 
 
+:file_folder:__Acerca del curso__:
+
+- [Programa del curso](https://github.com/joaquinzepeda/Programacion-Avanzada/blob/main/about/EL4203_Programacio%CC%81n%20avanzada.pdf)
 
 ## Google Colab
 Para la realización de los talleres prácticos de programación del curso, es conveniente que todos utilizemos la misma plataforma y así podamos evitar errores de compatibilidad o de instalación. [**Google Colaboratory**](https://colab.research.google.com/notebooks/welcome.ipynb) es un entorno de Jupyter notebook gratuito que se ejecuta completamente en la nube. La plataforma permite tanto escribir como ejecutar código, y solo se requiere de una cuenta google.
@@ -18,7 +21,7 @@ Dentro de este repositorio podrá encontrar los notebooks (\*.ipynb), se recomie
 ## Clonar GitHub
 En caso de requerir importar archivos y/o elementos de este repositorio a un entorno de Google Colab, puede clonarlo directamente mediante:
 
-`! git clone https://github.com/joaquinzepeda/Programacion-Avanzada.git`
+`!git clone https://github.com/joaquinzepeda/Programacion-Avanzada.git`
 
 Si el repositorio se ha clonado correctamente, notará que en la carpeta de archivos `/content` se habrá creado el directorio 'Programacion-Avanzada'. Para utilizar este directorio dentro de la sesión, utilice el siguiente comando:
 
