@@ -31,20 +31,23 @@ cd se refiere a 'change directory', en caso de no querer cambiar de directorio a
 
 ## Introducción
 
+El curso de Programación avanzada tiene como propósito que los y las estudiantes diseñen y codifiquen algoritmos en diversos lenguajes de programación aplicables a problemas en diversas áreas de la Ingeniería Eléctrica, ejecutando y documentando las soluciones que permitan la replicabilidad de estas. Para esto, utilizan herramientas de programación orientada a objetos, estructuras de datos, métodos de ordenamiento y búsqueda, y metodologías de diseño y programación.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ej3ZGUCJu1pRP7xF0RqS4MbAOYCxvk_6?usp=sharing)
 
-## Módulo 1:
+## Módulo 1: Fundamentos de Programación para la Ingeniería Eléctrica
 
 Contenidos:
   * Tipos de datos, funciones y expresiones. 
   * Programación orientada a objetos. 
   * Programación iterativa.
   * Recursividad.
+ 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VOQGcXPirhau8hqyV7UO7TNucQ4rpjwr?usp=sharing) 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VOQGcXPirhau8hqyV7UO7TNucQ4rpjwr?usp=sharing)
+Duración estimada: 2 semanas. 
 
-## Módulo 2:
+## Módulo 2: Estructuras y tipos de datos
 
 Contenidos:
   * Arreglos. 
@@ -54,9 +57,12 @@ Contenidos:
   * Representación de matrices y vectores. 
   * Casos de estudio de estructuras y tipos de datos.
 
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1M5WVy72fDoBmYztm2oDF5lYQUL2p71GO?usp=sharing)
 
-## Módulo 3:
+Duración estimada: 3 semanas. 
+
+## Módulo 3: Búsquedas y ordenamientos
 
 Contenidos:
   * Búsqueda secuencial y binaria.
@@ -67,8 +73,34 @@ Contenidos:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Zd75apOmNnulqpish7aCV3vzu2orM_ur?usp=sharing)
 
+Duración estimada: 3 semanas. 
 
-# Referencias
+## Módulo 4: Diseño y análisis de algoritmos
+
+Contenidos:
+  * Estudio de los algoritmos
+  * Programación dinámica
+  * Grafos
+  * Computación paralela
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mZxw72igoqblG4CZFG7upXHdFymiwKc5?usp=sharing)
+
+Duración estimada: 2 semanas. 
+
+
+## Módulo 5: Estándares y metodologías de proyectos de software 
+
+Contenidos:
+
+
+Duración estimada: 1.5 semanas. 
+
+## Módulo 6: Aplicaciones de programación a la Ingeniería Eléctrica
+
+Contenidos:
+
+Duración estimada: 3.5 semanas. 
 
 ## Referencias principales
 
