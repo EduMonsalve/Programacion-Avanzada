@@ -93,6 +93,13 @@ Duración estimada: 2 semanas.
 
 Contenidos:
 
+* Normas de codificación.
+* Estilos de programación.
+* Sistemas de versiones.
+* Conceptos de verificación y
+validación de software.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Yw-yF261umYdo-_8Axr1mGGFuVEuwnQd?usp=sharing)
 
 Duración estimada: 1.5 semanas. 
 
