@@ -31,7 +31,7 @@ cd se refiere a 'change directory', en caso de no querer cambiar de directorio a
 
 ## Instalación
 
-Guía de instalación en caso de querer trabajar de forma local.
+Guía de instalación en caso de querer trabajar de forma local. En internet existen muchos otros tutoriales e información sobre como realizar la instalación de Python, pero espero sirva de guía de instalación, en caso de dudas o problemas comunicarse con el cuerpo docente. 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1goqKPQtSxjrckAssPZH9HU0HRLd3EsXG?usp=sharing)
 
