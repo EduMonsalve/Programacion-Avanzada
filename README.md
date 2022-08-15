@@ -29,6 +29,13 @@ Si el repositorio se ha clonado correctamente, notará que en la carpeta de arch
 
 cd se refiere a 'change directory', en caso de no querer cambiar de directorio a la carpeta del repositorio, se puede trabajar con el path completo, en caso de leer una imagen por ejemplo se puede utilizar `/content/Programacion-Avanzada/imgs/toby.jpg` o si se cambia de directorio `imgs/toby.jpg`.Por otro lado, en caso de querer devolverse de directorio se puede utilizar el comando `%cd ..`.
 
+## Instalación
+
+Guía de instalación en caso de querer trabajar de forma local.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1goqKPQtSxjrckAssPZH9HU0HRLd3EsXG?usp=sharing)
+
+
 ## Introducción
 
 El curso de Programación avanzada tiene como propósito que los y las estudiantes diseñen y codifiquen algoritmos en diversos lenguajes de programación aplicables a problemas en diversas áreas de la Ingeniería Eléctrica, ejecutando y documentando las soluciones que permitan la replicabilidad de estas. Para esto, utilizan herramientas de programación orientada a objetos, estructuras de datos, métodos de ordenamiento y búsqueda, y metodologías de diseño y programación.
