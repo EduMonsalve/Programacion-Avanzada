@@ -1,4 +1,4 @@
-![banner](imgs/cropped-logo-fcfm-die-1.png)
+![banner](../imgs/cropped-logo-fcfm-die-1.png)
 
 # Programacion-Avanzada
 
