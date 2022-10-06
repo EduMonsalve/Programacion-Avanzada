@@ -95,18 +95,110 @@ Dentro del repositorio nos vamos a settings>Collaborators>Add people y seleccion
 
 Archivo que utiliza el lenguaje Markdown, útil como presentación y/o resumen del repositorio, es bastante util para explicar sobre el repositorio, como utilizar los archivos, etc.
 
+![image](https://user-images.githubusercontent.com/51517852/194356583-97538019-9b7d-4629-92bb-8605441b2a1a.png)
+
+
 ## Manejo básico de un repositorio: Comandos GIT
 
 ### GIT PUSH
 
+Permite agregar/subir todos los archivos que se han modificado hasta el momento, para esto seguimos los siguientes pasos:
+
+Apretamos click derecho dentro de la carpeta del repositorio que fue clonado. Seleccionamos abrir una git bash y luego se deben escribir las siguientes 3 líneas:
+
+```
+git add <filename> o git add .
+```
+```git add .``` agrega toda la carpeta en la que se encuentra. 
+
+Agregar nombre o etiqueta de los archivos:
+```
+git commit -m "Mensaje explicativo"
+```
+Realizar el push en la rama correspondiente (git push):
+ ```
+ git push o git push origin main
+ ```
+
 ### GIT PULL
 
+Como es probable que su colaborador realice modificaciones al código, actualizando el repositorio en GitHub sin que usted lo sepa, ES IMPORTANTE que siempre antes de trabajar, usted realice una actualización de su repositorio local al hacer un pull del repositorio de GitHub, al ejecutar:
+```
+git pull
+```
+
+En caso de que usted no realice un pull y modifique el repositorio, existirán conflictos entre su repositorio local y
+el de GitHub, lo que le impedirá realizar push de sus modificaciones, hasta que resuelva sus conflictos o realice una
+nueva copia del repositorio con git clone del repositorio e introduzca sus modificaciones ahí.
 
 
-#
+# Manejo de Ramas
+En Git existe una herramienta muy útil al momento de tener muchas personas trabajando sobre un mismo proyecto,
+o simplemente si se desea mantener la integridad de un proyecto. Estas son las ramas o branches, que permiten
+crear ‘copias’ o ‘versiones’ de un proyecto, que normalmente tiene como rama principal la rama main. La idea es
+que siempre que se quiera probar ideas o realizar modificaciones a un proyecto principal, se cree una rama con una
+copia de este, se realicen los cambios, y una vez que se esta segur@ de que los cambios han sido realizados tal y como
+se quiere y de forma correcta, esta rama se junte o haga merge con la rama main. De este modo no se compromete
+la integridad del proyecto, y un@ se asegura de modificar la rama main de forma consciente.
+A continuación se ejemplifica el proceso de crear una rama, modificar su contenido y luego hacerle push a la rama
+main.
+
+## Crear y acceder a Rama
+
+Para crear una nueva rama:
+```
+git checkout -b nombre_de_rama
+```
+
+Para cambiarse de rama, es decir, las modificaciones que se realicen en
+la carpeta del repositorio sólo quedarán registradas en la rama nombre_de_rama.
+```
+git checkout -b nombre_de_rama
+```
+
+Si se desea saber en que rama se está trabajando, ejecutar:
+```
+git branch
+```
+
+## Modificar y hacer push en Rama
+
+Al igual que en la parte anterior:
+```
+git add -A
+git commit -m "Mensaje explicativo de cambios realizados"
+git push origin nombre_de_rama
+```
+
+## Hacer merge con main
+
+Una vez se esta segur@ de que las modificaciones en la rama funcionan apropiadamente y desean ser juntadas con
+la rama main, ejecutar:
+
+```
+git checkout main
+git merge nombre_de_rama
+git push origin main
+```
+Si es que existen conflictos entre main y la rama que se esta haciendo merge, estos han de resolverse manualmente.
+
+![image](https://user-images.githubusercontent.com/51517852/194357976-91eaf9a7-05f7-4720-94e6-91a7459774c8.png)
+
+Imagen de: https://rogerdudler.github.io/git-guide/index.es.html
+
+# Extra: Personalizar tu cuenta: Repositorio especial
+
+Crear un repositorio que tenga como nombre el username, el readme de este se mostrará como tu perfil. Viendo el readme de la otra persona se puede ver la plantilla.
+Ejemplos: 
+https://github.com/joaquinzepeda  
+https://github.com/SauravMukherjee44
+![image](https://user-images.githubusercontent.com/51517852/194355526-dccbeb4e-ad7b-4155-98aa-1391df67f605.png)
 
 
 
+# Agradecimientos
+
+Agradecimientos al Cuerpo docente de EL4106 Inteligencia Computacional 2020, pues esta guia es una adpatación de su Auxiliar 3. Por otro lado, tambien agradecimientos al Cuerpo Docente del curso CC3002-1 Metodologías de Diseño y Programación 2017, Primavera, ya que esta guía la guia de curso de inteligencia es una adaptación de sus Auxiliares 1 y 2.
 
 
 
