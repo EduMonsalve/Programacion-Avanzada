@@ -50,11 +50,53 @@ En lo personal lo que más utilizo es la git bash.
 
 ## Crear un repositorio
 
+Una de las opciones es crear un nuevo repositorio desde la página de Github, se puede seleccionar distintas opciones tales como agregar un README (recomendado) y agregar gitignore (Este archivo sirve para que Git no suba algunos archivos al repositorio central. Por ejemplo se podría poner
+los nombres de las bases de datos, o archivos de compilación de python como los con terminación *.pyc.). 
+
+1. [IMPORTANTE] En una terminal, asociar su cuenta de GitHub a su computador.
+```
+git config --global user.name "Mi Nombre"
+git config --global user.email "mi@correo.cl"
+```
+2.  Ir a https://www.github.com e iniciar sesión.
+3. Hacer click en ‘New Repository’ (ubicado en barra lateral, sobre, ‘Your Repositories’).
+4. En repository name escribir EjemploGit-EL4203 y marcar repositorio como privado. Presionar ‘Create Repository’.
+
+![image](https://user-images.githubusercontent.com/51517852/194338253-c948dc00-67a1-4522-a6e4-54c383be2f5c.png)
+
+Una vez creado se pueden subir archivos, modificar el README, manejar colaboradores, crear ramas, etc. 
+
+
+5. Crear una carpeta donde se ubicará el proyecto, abrir una terminar en la carpeta y escribir 
+```
+git clone  https://github.com/username/Nombre-Repositorio.git
+```
+de esta manera se podrá tener una copia del repositorio de forma local. Este enlace lo pueden obtener desde el mismo repositorio como se muestra en la siguiente imagen:
+
+![image](https://user-images.githubusercontent.com/51517852/194342207-d4aa712d-ee04-4161-8830-838dace1f240.png)
+
+
 
 
 ### Agregra colaboradores
-   
-## Clonar un repositorio
+
+Dentro del repositorio nos vamos a settings>Collaborators>Add people y seleccionamos un colaborador buscandolo por username, nombre completo o por correo.
+
+![image](https://user-images.githubusercontent.com/51517852/194343365-6714a4c1-6825-4774-bbfa-30a1d443bd8e.png)
+
+## README file
+
+Archivo que utiliza el lenguaje Markdown, útil como presentación y/o resumen del repositorio, es bastante util para explicar sobre el repositorio, como utilizar los archivos, etc.
+
+## Manejo básico de un repositorio: Comandos GIT
+
+### GIT PUSH
+
+### GIT PULL
+
+
+
+#
 
 
 
