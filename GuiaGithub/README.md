@@ -9,6 +9,13 @@ Profesor Alberto Castro
 ## Motivación
 
 
+Git es un estándar al momento de crear un proyecto en equipo. Es una herramienta ampliamente utilizada en la industria. En algunos trabajos piden conocimientos sobre el uso de Github, además puede servir como “CV” de las habilidades de programación. A continuación se presentan ejemplos de: 
+
+**Repositorio grande FreeCodeCamp:** https://github.com/freeCodeCamp/freeCodeCamp   
+**Perfil personal Github:** https://github.com/SauravMukherjee44  
+**Página Web:** https://sauravmukherjee44.github.io/Portfolio-Saurav-Mukherjee/  
+
+
 ## Crear una cuenta en Github
 
 Se recomienda registrarse en [Github](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) con su correo @ing.uchile.cl o @ug.uchile.cl . De todas maneras pueden agregar otros correos personales a la cuenta. 
